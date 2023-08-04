@@ -14,7 +14,6 @@ document.getElementById("emolaBtn").addEventListener("click", function() {
  * Processa pagamentos Mpesa ou eMola
  * 
  * @param {String} paymentOption - tipo de pagamento 'Mpesa' ou 'eMola'. Caso nenhum valor seja enviado, por padrão será feita transação via Mpesa
- * @returns true/false
  * 
  */
 async function handlePaymentUsing(paymentOption = 'Mpesa') {
